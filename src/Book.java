@@ -194,8 +194,8 @@ public class Book {
  * Registro de empréstimo de livros;
  * Registro de livros reservados para retirada;
  * -------Busca de Livros-------
- * Buscar Livros;
- * Buscar Autores;
- * Buscar Disciplina;
- * Buscar ISBN;
+ * Buscar Livros; ok
+ * Buscar Autores; ok
+ * Buscar Disciplina; ok
+ * Buscar ISBN; ok
 */
