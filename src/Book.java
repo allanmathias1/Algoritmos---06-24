@@ -103,7 +103,7 @@ public class Book {
                         System.out.println("ISBN:" + linha[2]);
                         System.out.println("Número de páginas: " + linha[3]);
                         System.out.println("Ano: " + linha[4]);
-                        System.out.println("Disponibilidade:" + linha[5]);
+                        System.out.println("Disponibilidade: " + linha[5]);
                         System.out.println("Status: " + linha[6]);
                         System.out.println("Esse e o livro desejado?");
                         sc.nextLine();

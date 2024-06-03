@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 
 public class Functions {
-    private static String USER_FILE_PATH = "user.csv";
-    private static String BOOK_FILE_PATH = "livros.csv";
+    private static final String USER_FILE_PATH = "user.csv";
+    private static final String BOOK_FILE_PATH = "livros.csv";
 
     public static String @Nullable [] login(String login, String senha) {
         try{
@@ -55,7 +55,6 @@ public class Functions {
                     System.out.println("Login: " + userInfo[0]);
                     System.out.println("Email: " + userInfo[2]);
                     System.out.println("Tipo de usuário: " + userInfo[3]);
-                    break;
                     }
                 case "2" -> Book.busca();
                 case "3" -> quit();
@@ -63,10 +62,10 @@ public class Functions {
         }
     }
     public static void adminMenu(){
+        System.out.println("Bem vindo ao sistema informatizado de pesquisa de Livro Webibliotech.");
         //O IntelliJ reclama que o loop abaixo é infinito. Bem, ele é feito pra ser infinito, então tá tudo certo.
         //O método quit() será responsável por finalizar o loop.
         //noinspection InfiniteLoopStatement
-        System.out.println("Bem vindo ao sistema informatizado de pesquisa de Livro Webibliotech.");
         while(true){
             System.out.println("""
                 Por favor, de acordo com o índice abaixo, escolha uma opcao.
@@ -77,11 +76,8 @@ public class Functions {
             String input = sc.nextLine();
             switch (input) {
                     case "1" -> {
-                        //O IntelliJ reclama que o loop abaixo é infinito. Bem, ele é feito pra ser infinito, então tá tudo certo.
-                        //O método quit() será responsável por finalizar o loop.
-                        //noinspection InfiniteLoopStatement
                         boolean loop = true;
-                        while (loop == true){
+                        while (loop){
                             System.out.println("Sistema de gerenciamento de usuários.");
                             System.out.println("""
                                     1. Criar usuário;
