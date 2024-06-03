@@ -8,7 +8,6 @@ import java.util.Scanner;
 
 public class Functions {
     private static final String USER_FILE_PATH = "user.csv";
-    private static final String BOOK_FILE_PATH = "livros.csv";
 
     public static String @Nullable [] login(String login, String senha) {
         try{
@@ -126,17 +125,7 @@ public class Functions {
 
 
 /*
-* Funções que ainda precisam ser feitas:
-* -------Gerenciamento de Livros-------
-* Incluir Livro;
-* Retirar Livro;
-* Emprestar Livro para terceiros;
-* Retorno de empréstimo;
-* Registro de empréstimo de livros;
-* Registro de livros reservados para retirada;
-* -------Busca de Livros-------
-* Buscar Livros;
-* Buscar Autores;
-* Buscar Disciplina;
-* Buscar ISBN;
+Esse arquivo provavelmente só será alterado no futuro se houver alteração no método login.
+É possível que novas funcionalidades possam ser adicionadas aqui, quando não tiverem correlação direta com a Classe Book
+ou com a classe User.
 * */
