@@ -129,7 +129,7 @@ public class User {
  * Funções que ainda precisam ser feitas:
  * -------Gerenciamento de Usuários-------
  * Criar Usuário; ok
- * Deletar Usuário;
- * Editar Usuário;
- * Trocar senha de usuário;
+ * Deletar Usuário; ok
+ * Editar Usuário; - em construção.
+ * Trocar senha de usuário; - será feita com a acima.
  * */
